@@ -80,10 +80,10 @@
 
 
 
+![Attendance vs Exam_Score](images/EDA-Attendance.png)
 
 
 
-<Images/EDA-Attendance.png
 
 
 
