@@ -48,10 +48,40 @@
 
 ---
 
-## 📂 **Data Sources & Attributes**
-- **Source**: ข้อมูลจากโรงเรียนในจังหวัดปทุมธานี  
-- **Cleaning**: ลบ missing, แก้ Data Type  
-- **Target Variable**: Exam Score  
+## 📂 **Data Sources**
+- ข้อมูลจาก www.kaggle.com
+
+---
+
+## 📚 Data Dictionary
+
+| **Attribute**              | **Description**                                      | **Data Type**            | **Example**                     |
+|---------------------------|------------------------------------------------------|---------------------------|---------------------------------|
+| Hours_Studied            | Number of self-study hours per week                 | Ratio (Continuous)       | [0, ∞)                         |
+| Attendance               | Percentage of attendance throughout the term        | Ratio (Continuous)       | [0, 100]                       |
+| Parental_Involvement     | Level of parental support in academics              | Ordinal                  | Low, Medium, High              |
+| Access_to_Resources      | Availability of academic resources like books or internet | Ordinal                  | Low, Medium, High              |
+| Extracurricular_Activities| Participation in extracurricular activities         | Binary                   | Yes, No                        |
+| Sleep_Hours              | Average hours of sleep per day                      | Ratio (Continuous)       | [0, ∞)                         |
+| Previous_Scores          | Average of previous academic scores                 | Ratio (Continuous)       | [0, 100]                       |
+| Motivation_Level         | Student’s motivation level                          | Ordinal                  | Low, Medium, High              |
+| Internet_Access          | Whether the student has access to the internet      | Binary                   | Yes, No                        |
+| Tutoring_Sessions        | Number of tutoring sessions per week                | Ratio (Continuous)       | [0, ∞)                         |
+| Family_Income            | Family income                                       | Ratio (Continuous)       | [0, ∞)                         |
+| Teacher_Quality          | Overall perceived teacher quality                   | Ordinal                  | Low, Medium, High              |
+| SchoolType_ID            | Type of school                                      | Nominal                  | 1 = Public, 2 = Private        |
+| Peer_Influence           | Influence of peers on academic performance          | Ordinal                  | Negative, Neutral, Positive    |
+| Physical_Activity        | Hours of physical activity per week                 | Ratio (Continuous)       | [0, ∞)                         |
+| Learning_Disabilities    | Presence of any learning disabilities               | Binary                   | Yes, No                        |
+| Parental_Education_Level | Highest education level of parents                  | Ordinal                  | High School, College, Postgraduate |
+| Distance_from_Home       | Distance between home and school                    | Ordinal                  | Near, Moderate, Far            |
+| Gender                   | Student’s gender                                    | Nominal                  | Male, Female                   |
+| Exam_Score               | Final exam score                                    | Ratio (Continuous)       | [0, 100]                       |
+| Grade_Group              | Final Grade                                         | Ordinal                  | A, B, C, D                     |
+
+---
+
+## 🧹 Data Cleansing
 
 
 ---
