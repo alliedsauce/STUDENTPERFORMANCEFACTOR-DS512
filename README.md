@@ -125,7 +125,7 @@
 
 ---
 
-## 🔍 **EDA**
+## 🔍 **Exploratory Data Analysis (EDA)**
 **Attendance vs Exam_Score**
 
 
